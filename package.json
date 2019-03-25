@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-till-2019-03-22",
+  "version": "1.0.0",
+  "description": "Bootstrap demo for TILL CONSULT",
+  "main": "web/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamkudrna/bootstrap-till-2019-03-22.git"
+  },
+  "author": "Adam Kudrna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamkudrna/bootstrap-till-2019-03-22/issues"
+  },
+  "homepage": "https://github.com/adamkudrna/bootstrap-till-2019-03-22#readme",
+  "scripts": {
+    "build": "node-sass scss/main.scss --output-style expanded --source-map true --source-map-contents true --output web/css"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

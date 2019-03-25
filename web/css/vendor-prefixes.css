@@ -1,0 +1,9 @@
+.block {
+    -moz-box-shadow: 0 3px 15px black;
+    -webkit-box-shadow: 0 3px 15px black;
+    -ms-box-shadow: 0 3px 15px black;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
